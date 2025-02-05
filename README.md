@@ -65,5 +65,9 @@ Implementare una classe Calendar che rappresenta un calendario di eventi. Ogni e
 - Un metodo che ritorna una lista di Event in ordine temporale d'inizio
 - Un metodo che ritorni 'true' se e solo se nel DateTime preso come parametro c'è almeno un evento in calendario, 'false' se invece nessun evento è presente in quel DateTime specificato
 - Estendere il metodo per l'aggiunta di un evento in calendario, facendogli lanciare un'eccezione se l'evento da inserire va in conflitto con qualche altro evento già aggiunto in calendario
+- Aggiungere dei metodi per ritornare dal calendario:
+  - L'evento con la durata più lunga
+  - L'evento con la durata più breve
+  - I mesi dell'anno in cui non sono presenti eventi
   
 BONUS: Implementare la classe Calendar usando una struttura dati sottostante che mantenga l'ordine in base al tempo d'inizio dell'evento già in fase d'inserimento. 
