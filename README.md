@@ -5,6 +5,16 @@
 - [Date](#date)
 
 ## OOP
+### Student
+- 1. Implementare una classe Student con nome, cognome e media dei voti.
+- 2. Implementare una classe Product con nome, prezzo (float) e qualità (int). la qualità dev'essere un numero intero maggiore o uguale a 0.
+- 3. Definire un'interfaccia Rankable con i seguenti metodi:
+    - getRank(): float
+    - Ritorna un valore "rank" che indica il valore dell'oggetto
+- 4. Implementare l'interfaccia Rankable per Student. Il "rank" di uno studente è dato dalla sua media dei voti diviso 10.
+- 5. Implementare l'interfaccia Rankable per Product. Il "rank" di un prodotto è dato dalla sua qualità diviso il suo prezzo.
+- 6. Implementare nella classe Main un metodo statico che prenda come parametro un array di Rankable e ritorni l'elemento nell'array col rank più alto.
+   
 ### Movable
 #### Parte 1
 - 1.1 Definire un'interfaccia Movable, rappresentante delle entità che si muovono nel mondo. L'interfaccia ha i seguenti metodi:
