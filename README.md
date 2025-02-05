@@ -1,7 +1,31 @@
 # Esercizi
 ## Indice per argomenti
+- [Object-oriented programming](#oop)
 - [Enum](#enum)
 - [Date](#date)
+
+## OOP
+### Movable
+#### Parte 1
+- 1.1 Definire un'interfaccia Movable, rappresentante delle entità che si muovono nel mondo. L'interfaccia ha i seguenti metodi:
+  - getInitialSpeed(): float
+          * Ritorna la velocità a cui l'oggetto si muove non appena inizia il movimento
+  - getMaxSpeed(): float
+          * Ritorna la velocità massima a cui si può muovere l'oggetto
+
+- 1.2 Implementare nella classe Main un metodo statico che, dato un array di oggetti Movable, ritorni l'oggetto con la maggiore velocità massima.
+- 1.3 Implementare nella classe Main un metodo statico che, dato un array di oggetti Movable, ritorni l'oggetto con la maggiore velocità iniziale.
+NB: Questi metodi possono essere scritti e compilati anche se nessun oggetto implementa l'interfaccia Movable
+
+### Parte 2
+- 2.1 Implementare una classe Pedestrian, rappresentante un pedone, definito da un nome ed una forza muscolare.
+  - 2.1.1 Implementare l'interfaccia Movable per Pedestrian. La velocità iniziale di un pedone e la velocità massima coincidono e sono date dalla sua forza muscolare moltiplicata per 3.
+
+- 2.2 Implementare una classe Car, rappresentante una macchina, definito da un oggetto Pedestrian che la guida ed una potenza del motore (float).
+  - 2.2.1 Implementare l'interfaccia Movable per Car. La velocità iniziale di una macchina è 0, la velocità massima è data dalla potenza del motore moltiplicata per 10.
+
+- 2.3 Implementare una classe Bike, rappresentante una bicicletta, definita da un oggetto Pedestrian che la guida ed una potenza delle ruote (float).
+  - 2.3.1 Implementare l'interfaccia Movable per Bike. La velocità iniziale di una bici è 0, la velocità massima è data dalla forza muscolare del guidatore moltiplicata per la potenza delle ruote.
 
 ## Enum
 ### ShopProduct
