@@ -1,8 +1,20 @@
 # Esercizi
 ## Indice per argomenti
+- [Array](#array)
 - [Object-oriented programming](#oop)
 - [Enum](#enum)
 - [Date](#date)
+
+## Array
+### Ricerca in un array
+- Implementare un metodo che prenda come parametro un array di interi e ne ritorni il minimo
+- Implementare un metodo che prenda come parametro un array di interi e ne ritorni il massimo
+- Implementare un metodo che prenda come parametro un array di interi e ne ritorni il minimo dei valori maggiori di un parametro k
+- Implementare un metodo che prenda come parametro un array di interi e ne ritorni il minimo dei valori minori di un parametro k
+- Implementare un metodo che prenda come parametro un array di interi e ne ritorni il minimo dei numeri strettamente positivi
+- Implementare un metodo che prenda come parametro un array di interi e ne ritorni il massimo dei numeri strettamente negativi
+
+È possibile ed incoraggiato richiamare dei metodi scritti in alcuni punti precedenti
 
 ## OOP
 ### Student
