@@ -4,6 +4,7 @@
 - [Object-oriented programming](#oop)
 - [Enum](#enum)
 - [Date](#date)
+- [Testing](#testing)
 
 ## Array
 ### Ricerca in un array
@@ -71,3 +72,30 @@ Implementare una classe Calendar che rappresenta un calendario di eventi. Ogni e
   - I mesi dell'anno in cui non sono presenti eventi
   
 BONUS: Implementare la classe Calendar usando una struttura dati sottostante che mantenga l'ordine in base al tempo d'inizio dell'evento già in fase d'inserimento. 
+
+## Testing
+### Test-driven development
+Dato il seguente scheletro di una classe che rappresenta una frazione:
+
+```java
+// Tipo di dato che rappresenta una frazione
+public class Fraction {
+	// Initializza la frazione con i valori passati come parametri
+	public Fraction(int numerator, int denumerator) {
+	}
+
+	
+	// Aggiunge il valore della frazione passata come parametro all'oggetto su cui il metodo viene chiamato (this)
+	public void add(Fraction other) {
+	}
+
+	// Ritorna 'false' se la frazione non è valida (esempio: il denominatore è 0), 'true' altrimenti
+	public boolean isValid() {
+		return false;
+	}
+}
+```
+
+- Scrivere una classe di test che verifica tutti i casi possibili, seguendo le indicazioni date dai commenti. **In questa fase non implementare i metodi, va bene che alcuni test diano errore, concentrarsi sulla scrittura dei test con asserzioni che seguano ciò che il commento sopra ogni metodo indica**.
+Esempio: Una frazione con numeratore 5 e numeratore 7 sarà valida, tuttavia un test in cui si fa asserzione "assertTrue(obj.isValid())" fallirà poichè per adesso il metodo isValid ritorna sempre false.
+- Dopo aver scritto una quantità considerevole di test, procedere con l'implementazione della classe fin quando tutti i test non passano.
