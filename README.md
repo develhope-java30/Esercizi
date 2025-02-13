@@ -5,6 +5,7 @@
 - [Enum](#enum)
 - [Date](#date)
 - [Testing](#testing)
+- [Builder](#builder)
 
 ## Array
 ### Ricerca in un array
@@ -99,3 +100,11 @@ public class Fraction {
 - Scrivere una classe di test che verifica tutti i casi possibili, seguendo le indicazioni date dai commenti. **In questa fase non implementare i metodi, va bene che alcuni test diano errore, concentrarsi sulla scrittura dei test con asserzioni che seguano ciò che il commento sopra ogni metodo indica**.
 Esempio: Una frazione con numeratore 5 e numeratore 7 sarà valida, tuttavia un test in cui si fa asserzione "assertTrue(obj.isValid())" fallirà poichè per adesso il metodo isValid ritorna sempre false.
 - Dopo aver scritto una quantità considerevole di test, procedere con l'implementazione della classe fin quando tutti i test non passano.
+
+## Builder
+### Shape builder
+- Convertire l'esercizio sul factory method per la classe "Shape" al design pattern Builder. In questo caso il builder deve permettere di configurare solo il tipo di forma geometrica, con il metodo build() che effettua il controllo ritornando la classe Shape giusta.
+- Aggiungere un parametro "numberOfSides" che indica il numero di lati della figura geometrica, di default 0. Il builder, al momento della chiamata a build(), deve verificare i seguenti vincoli e lanciare un'eccezione se si cerca di creare una forma geometrica non valida:
+	- Se si sta creando un cerchio, il numero di lati dev'essere 0 (un quadrato non ha lati)
+ 	- Un triangolo può avere 1 o 3 lati (con 1 lato intendiamo un triangolo collassato su se stesso con altezza 0)
+  	- Un quadrato può avere 1 o 4 lati (con 1 lato intendiamo un quadrato collassato su se stesso con altezza 0)
