@@ -118,6 +118,6 @@ Esempio: Una frazione con numeratore 5 e numeratore 7 sarà valida, tuttavia un 
 	- La classe Piattaforma dev'essere un singleton, per cui qualsiasi consegna va aggiunta ad una lista in comune statica.
 - Creare nel main tre metodi statici e chiamarli nel metodo main:
 	- vincentDelivery(): Consegna 3 esercizi con numero 1, 4 e 5.
- 	- marioDelivery(): Consegna 2 esercizi con numero 2 e 3
-    	- ginoDelivery(): Consegna 2 esercizi con numero 1 e 6
-     	- Gestire eventuali eccezioni lanciate da ogni delivery e stampare infine tutti gli esercizi consegnati. 
+	- marioDelivery(): Consegna 2 esercizi con numero 2 e 3
+	- ginoDelivery(): Consegna 2 esercizi con numero 1 e 6
+- Gestire eventuali eccezioni lanciate da ogni delivery e stampare infine tutti gli esercizi consegnati. 
