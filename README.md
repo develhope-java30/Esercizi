@@ -6,6 +6,7 @@
 - [Date](#date)
 - [Testing](#testing)
 - [Builder](#builder)
+- [Singleton](#singleton)
 
 ## Array
 ### Ricerca in un array
@@ -108,3 +109,15 @@ Esempio: Una frazione con numeratore 5 e numeratore 7 sarà valida, tuttavia un 
 	- Se si sta creando un cerchio, il numero di lati dev'essere 0 (un quadrato non ha lati)
  	- Un triangolo può avere 1 o 3 lati (con 1 lato intendiamo un triangolo collassato su se stesso con altezza 0)
   	- Un quadrato può avere 1 o 4 lati (con 1 lato intendiamo un quadrato collassato su se stesso con altezza 0)
+ 
+## Singleton
+### La piattaforma
+- Creare una classe Exercise con campi numero esercizio (int) e codice (String).
+- Creare una classe Piattaforma contenente una lista di esercizi consegnati.
+  	- La classe deve fornire un metodo per consegnare un esercizio, ovvero aggiungerlo alla lista. Se l'esercizio è già stato consegnato, lanciare un'eccezione.
+	- La classe Piattaforma dev'essere un singleton, per cui qualsiasi consegna va aggiunta ad una lista in comune statica.
+- Creare nel main tre metodi statici e chiamarli nel metodo main:
+	- vincentDelivery(): Consegna 3 esercizi con numero 1, 4 e 5.
+ 	- marioDelivery(): Consegna 2 esercizi con numero 2 e 3
+    	- ginoDelivery(): Consegna 2 esercizi con numero 1 e 6
+     	- Gestire eventuali eccezioni lanciate da ogni delivery e stampare infine tutti gli esercizi consegnati. 
