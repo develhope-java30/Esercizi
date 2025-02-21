@@ -7,6 +7,7 @@
 - [Testing](#testing)
 - [Builder](#builder)
 - [Singleton](#singleton)
+- [Iterator](#iterator)
 
 ## Array
 ### Ricerca in un array
@@ -120,4 +121,10 @@ Esempio: Una frazione con numeratore 5 e numeratore 7 sarà valida, tuttavia un 
 	- vincentDelivery(): Consegna 3 esercizi con numero 1, 4 e 5.
 	- marioDelivery(): Consegna 2 esercizi con numero 2 e 3
 	- ginoDelivery(): Consegna 2 esercizi con numero 1 e 6
-- Gestire eventuali eccezioni lanciate da ogni delivery e stampare infine tutti gli esercizi consegnati. 
+- Gestire eventuali eccezioni lanciate da ogni delivery e stampare infine tutti gli esercizi consegnati.
+
+## Iterator
+### ArrayList iterator
+- Implementare una classe ArrayListIterator che permette la visita di un ArrayList e la rimozione di eventuali elementi durante la visita.
+- Scrivere unit test utilizzando la classe su alcune ArrayList d'esempio
+  
